@@ -158,7 +158,14 @@ return [
         'content' => 'コンテント',
         'name' => '名前',
         'price' => '金額',
-        'memo' => '商品名'
+        'memo' => '商品名',
+        'kana' => 'カナ',
+        'tel' => '電話番号',
+        'email' => 'メールアドレス',
+        'postcode' => '郵便番号',
+        'address' => '住所',
+        'birthday' => '誕生日',
+        'gender' => '性別'
     ],
 
 ];
