@@ -58,4 +58,16 @@ const props = defineProps({
             </tbody>
         </table>
     </div>
+
+    <div v-if="props.data.type === 'rfm'" class="lg:w-2/3 w-full mx-auto overflow-auto">
+        ///合計人数 {{ data.totals }}
+        <table class="table-auto w-full text-left whitespace-no-wrap">
+            <thead>
+               
+            </thead>
+            <tbody>
+               
+            </tbody>
+        </table>
+    </div>
 </template>
