@@ -1,7 +1,7 @@
 <script setup>
 import { Chart, registerables } from "chart.js";
 import { BarChart } from "vue-chart-3";
-import { computed, reactive } from "vue"
+import { computed, onMounted, reactive } from "vue"
 
 const labels = computed(() => props.data.labels )
 const totals = computed(() => props.data.totals ) 
